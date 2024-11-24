@@ -51,7 +51,7 @@ function MovieSlider() {
 const SliderContainer = styled.div`
   max-width: 900px; /* 슬라이더 부모 컨테이너의 최대 너비 */
   margin: 0 auto; /* 가운데 정렬 */
-  padding: 20px; /* 내부 여백 추가 */
+  padding: 20px;
 `;
 
 const StyledSlider = styled(Slider)`
@@ -71,17 +71,6 @@ const StyledSlider = styled(Slider)`
     gap: 10px;
     transition: transform 0.5s ease; /* 애니메이션 효과 */
     will-change: transform; /* GPU 가속 최적화 */
-  }
-
-  .slick-prev,
-  .slick-next {
-    z-index: 1;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 0; /* 텍스트 크기를 0으로 설정해 숨김 */
-    color: white;
-    background: none; /* 배경 제거 */
-    border: none; /* 테두리 제거 */
   }
 
   .slick-prev {

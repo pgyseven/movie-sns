@@ -30,8 +30,8 @@ function MainPage() {
 }
 
 const Container = styled.div`
-  background-color: #1c1b29; /* 미드나잇 블루 */
-  color: #ececec; /* 라이트 그레이 */
+  background-color: #1c1b29;
+  color: #ececec;
   min-height: 100vh;
 `;
 
@@ -43,7 +43,7 @@ const Header = styled.header`
 `;
 
 const Logo = styled.h1`
-  color: #ff4081; /* 엠버 */
+  color: #ff4081;
 `;
 
 const Nav = styled.nav`
@@ -55,7 +55,7 @@ const NavItem = styled.a`
   color: #ececec;
   text-decoration: none;
   &:hover {
-    color: #ff4081; /* 엠버 강조 */
+    color: #ff4081;
   }
 `;
 
